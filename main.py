@@ -1,15 +1,6 @@
-print("qwertyuiop")
-print(123)
-print("I am 11.", 11)
-print("Hello \n")
-print("Welcome to", end= ">>>")
-x = 39
-y = "Red"
-print(x)
-print(y)
-codingal = "codingal"
-print(codingal)
+name = input("Enter your name: ")
 age = input("Enter your age: ")
-print("Your age is:", age)
-import keyword
-print(keyword.kwlist)
+Birthyear = input("Enter your birth year: ")
+Birthmonth = input("Enter your birth month: ")
+Birthdate = input("Enter your birth date: ")
+print(f"{name} is {age} and was born on {Birthmonth} {Birthdate}th, {Birthyear}.")
