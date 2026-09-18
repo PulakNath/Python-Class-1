@@ -1,6 +1,9 @@
-name = input("Enter your name: ")
-age = input("Enter your age: ")
-Birthyear = input("Enter your birth year: ")
-Birthmonth = input("Enter your birth month: ")
-Birthdate = input("Enter your birth date: ")
-print(f"{name} is {age} and was born on {Birthmonth} {Birthdate}th, {Birthyear}.")
+o = 123
+print("type of o:", type(o))
+p = 456
+print("type of p:", type(p))
+print("After Type Casting")
+o = str(o)
+print("type of o:", type(o))
+p = float(p)
+print("type of p:", type(p))
